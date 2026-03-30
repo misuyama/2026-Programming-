@@ -63,7 +63,8 @@ namespace _013_171chart1
                 return;
             }
             chart1.ChartAreas.RemoveAt(1); //두번째 ChartArea 삭제
-            chart1.Series[1].ChartArea = "chartArea1";
+            chart1.Series[1].ChartArea = "ChartArea1";
+
 
             BtnTwoChartArea.Enabled = true;
             btnOneChartArea.Enabled = false;
