@@ -150,6 +150,7 @@
             this.btnInsert.TabIndex = 10;
             this.btnInsert.Text = "추가";
             this.btnInsert.UseVisualStyleBackColor = true;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click_1);
             // 
             // btnSearch
             // 
@@ -170,6 +171,7 @@
             this.btnClear.TabIndex = 12;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnExit
             // 
@@ -180,6 +182,7 @@
             this.btnExit.TabIndex = 16;
             this.btnExit.Text = "종료";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnUpdate
             // 
