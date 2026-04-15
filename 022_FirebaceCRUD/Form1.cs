@@ -94,7 +94,7 @@ namespace _022_FirebaceCRUD
             };
             SetResponse s = await Client.SetAsync("Hooing/" + d.Id, d); //pBook은 저장위치 
 
-            Data r = s.ResultAs<Data>();                           
+            Data r = s.ResultAs<Data>();                            //97, 98번은 확인하기 위해 존재하는 코드
             MessageBox.Show(d.Id + "빈 데이터 삽입");        
         }
 
