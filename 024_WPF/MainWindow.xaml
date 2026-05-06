@@ -5,9 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_024_WPF"
         mc:Ignorable="d"
-        Title="Hello World!" Height="450" Width="1000">
-    <Grid x:Name="grid1" Background="Orange">
-        <TextBlock x:Name="txt" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="100" MouseDown="TextBlock_MouseDown">Hello World!</TextBlock>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="60">어 나 김태우인데</TextBlock>
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Row="0" Grid.Column="0">버튼1</Button>
+        <Button Grid.Row="1" Grid.Column="0">버튼2</Button>
+        <Button Grid.Row="2" Grid.Column="0">버튼3</Button>
+        <Button Grid.Row="0" Grid.Column="1">버튼4</Button>
+        <Button Grid.Row="1" Grid.Column="1">버튼5</Button>
+        <Button Grid.Row="2" Grid.Column="1">버튼6</Button>
+        <Button Grid.Row="0" Grid.Column="2">버튼7</Button>
+        <Button Grid.Row="1" Grid.Column="2">버튼8</Button>
+        <Button Grid.Row="2" Grid.Column="2">버튼9</Button>
+        
     </Grid>
 </Window>

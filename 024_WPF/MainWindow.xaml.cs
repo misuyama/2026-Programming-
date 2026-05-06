@@ -24,24 +24,5 @@ namespace _024_WPF
         {
             InitializeComponent();
         }
-
-        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MessageBox.Show("클릭했습니다.", "제목");
-            if (grid1.Background == Brushes.Orange)
-            {
-                grid1.Background = Brushes.Aqua;
-            }
-            else
-            {
-                grid1.Background = Brushes.Orange;
-            }
-
-        }
     }
 }
