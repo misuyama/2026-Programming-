@@ -1,0 +1,14 @@
+C:\Users\konyang\source\repos\VP-2026-01\mid\bin\Debug\net8.0\mid.exe
+C:\Users\konyang\source\repos\VP-2026-01\mid\bin\Debug\net8.0\mid.deps.json
+C:\Users\konyang\source\repos\VP-2026-01\mid\bin\Debug\net8.0\mid.runtimeconfig.json
+C:\Users\konyang\source\repos\VP-2026-01\mid\bin\Debug\net8.0\mid.dll
+C:\Users\konyang\source\repos\VP-2026-01\mid\bin\Debug\net8.0\mid.pdb
+C:\Users\konyang\source\repos\VP-2026-01\mid\obj\Debug\net8.0\mid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\konyang\source\repos\VP-2026-01\mid\obj\Debug\net8.0\mid.AssemblyInfoInputs.cache
+C:\Users\konyang\source\repos\VP-2026-01\mid\obj\Debug\net8.0\mid.AssemblyInfo.cs
+C:\Users\konyang\source\repos\VP-2026-01\mid\obj\Debug\net8.0\mid.csproj.CoreCompileInputs.cache
+C:\Users\konyang\source\repos\VP-2026-01\mid\obj\Debug\net8.0\mid.dll
+C:\Users\konyang\source\repos\VP-2026-01\mid\obj\Debug\net8.0\refint\mid.dll
+C:\Users\konyang\source\repos\VP-2026-01\mid\obj\Debug\net8.0\mid.pdb
+C:\Users\konyang\source\repos\VP-2026-01\mid\obj\Debug\net8.0\mid.genruntimeconfig.cache
+C:\Users\konyang\source\repos\VP-2026-01\mid\obj\Debug\net8.0\ref\mid.dll
