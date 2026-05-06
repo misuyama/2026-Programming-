@@ -1,0 +1,16 @@
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\bin\Debug\024_WPF.exe.config
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\bin\Debug\024_WPF.exe
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\bin\Debug\024_WPF.pdb
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\obj\Debug\024_WPF.csproj.AssemblyReference.cache
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\obj\Debug\App.g.cs
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\obj\Debug\024_WPF_MarkupCompile.cache
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\obj\Debug\024_WPF_MarkupCompile.lref
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\obj\Debug\MainWindow.baml
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\obj\Debug\024_WPF.g.resources
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\obj\Debug\_024_WPF.Properties.Resources.resources
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\obj\Debug\024_WPF.csproj.GenerateResource.cache
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\obj\Debug\024_WPF.csproj.CoreCompileInputs.cache
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\obj\Debug\024_WPF.exe
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\obj\Debug\024_WPF.pdb
+C:\Users\konyang\source\repos\VP-2026-01\024_WPF\obj\Debug\024_WPF.exe.config
