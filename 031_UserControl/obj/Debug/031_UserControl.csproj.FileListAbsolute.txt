@@ -1,0 +1,3 @@
+C:\Users\konyang\source\repos\VP-2026-01\031_UserControl\obj\Debug\031_UserControl.csproj.AssemblyReference.cache
+C:\Users\konyang\source\repos\VP-2026-01\031_UserControl\obj\Debug\App.g.cs
+C:\Users\konyang\source\repos\VP-2026-01\031_UserControl\obj\Debug\031_UserControl_MarkupCompile.cache
