@@ -1,0 +1,30 @@
+﻿<Window x:Class="_030_Language.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_030_Language"
+        mc:Ignorable="d"
+        Title="언어" Height="450" Width="400" Background="Magenta">
+    <StackPanel Margin="20" Background="AntiqueWhite">
+        <TextBlock HorizontalAlignment="Center" Text="★좋아하는 언어는?" FontSize="20"/>
+        <!--<TextBlock HorizontalAlignment="Center">좋아하는 언어는?</TextBlock>-->
+        <Separator Margin="20 10 10 10"/>
+        <CheckBox x:Name="cbc"  Margin="10" Content="C"/>
+        <CheckBox x:Name="cbcpp" Margin="10" Content="C++"/>
+        <CheckBox x:Name="cbss" Margin="10" Content="C#"/>
+        <CheckBox x:Name="cbpy" Margin="10" Content="파이썬"/>
+        <CheckBox x:Name="cbja" Margin="10" Content="Java"/>
+        <CheckBox x:Name="cbj" Margin="10" Content="일본어"/>
+
+        <Separator  Margin="20 10 10 10" />
+        <!--separator은 text가 아니라 content가 들어간다 유의하자-->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+
+            <Button x:Name="btnsb" Content="투표하기" Width="100" Margin="0 5 20 0" Padding="10" Click="Button_Click"/>
+            <Button x:Name="btnend" Content="끝내기" Width="100" Margin="0 5 20 0" Padding="10" Click="btnend_Click"/>
+        </StackPanel>
+        
+
+    </StackPanel>
+</Window>

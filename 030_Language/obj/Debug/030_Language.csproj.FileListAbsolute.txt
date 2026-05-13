@@ -1,0 +1,16 @@
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\bin\Debug\030_Language.exe.config
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\bin\Debug\030_Language.exe
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\bin\Debug\030_Language.pdb
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\obj\Debug\030_Language.csproj.AssemblyReference.cache
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\obj\Debug\MainWindow.g.cs
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\obj\Debug\App.g.cs
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\obj\Debug\030_Language_MarkupCompile.cache
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\obj\Debug\030_Language_MarkupCompile.lref
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\obj\Debug\MainWindow.baml
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\obj\Debug\030_Language.g.resources
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\obj\Debug\_030_Language.Properties.Resources.resources
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\obj\Debug\030_Language.csproj.GenerateResource.cache
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\obj\Debug\030_Language.csproj.CoreCompileInputs.cache
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\obj\Debug\030_Language.exe
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\obj\Debug\030_Language.pdb
+C:\Users\konyang\source\repos\VP-2026-01\030_Language\obj\Debug\030_Language.exe.config
