@@ -12,9 +12,9 @@
             <StackPanel>
                 <Rectangle Fill="Red" MinHeight="25" MinWidth="25"/>
                 <TextBlock HorizontalAlignment="Center" Text="Red"/>
-                
-
-            </StackPanel>
+                 </StackPanel>
+            
+            
             
         </Button>
         </StackPanel>
