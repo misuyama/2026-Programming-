@@ -5,34 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_029_Login"
         mc:Ignorable="d"
-        Title="로그인" Height="400" Width="500">
-    <Grid Background="LightSteelBlue">
-        <StackPanel Margin="50" Background="Aqua">
-            <!--1층-->
-            <TextBlock Text="로그인" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Padding="10"/>
-            
-            <!--2층-->
-            <StackPanel Orientation="Horizontal" Margin="20">
-                <TextBlock Text="Id : " FontSize="18" Width="100" HorizontalAlignment="Right"/>
-                <TextBox x:Name="txtid"  FontSize="18" Width="200"/>
-                
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid Background=" LightSteelBlue">
+            <StackPanel Margin="50" Background="AliceBlue">
+                <TextBlock Text="로그인" HorizontalAlignment="Center" 
+	      FontSize="18" FontWeight="Black"
+                       Padding="10"/>
+                <StackPanel Orientation="Horizontal" Margin="20 20 20 10">
+                    <TextBlock Text="Id : " 
+                           HorizontalAlignment="Right"
+                           FontSize="18" MinWidth="100" />
+                    <TextBox FontSize="18" MinWidth="200"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="20 10 20 10">
+                    <TextBlock Text="Password : " 
+                           HorizontalAlignment="Right"
+                           FontSize="18" MinWidth="100"/>
+                    <PasswordBox MinWidth="200"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock MinWidth="100"/>
+                    <Button x:Name="btnLogin" Content="Login" Margin="20" 
+                    FontSize="18"
+                    MinWidth="200"/>
+                </StackPanel>
             </StackPanel>
-
-            <!--3층-->
-            <StackPanel Orientation="Horizontal" Margin="20 20 20 10">
-                <TextBlock Text="Pw : " FontSize="18" Width="100" HorizontalAlignment="Right"/>
-                <PasswordBox x:Name="txtpw" FontSize="18" Width="200"/>
-
-            </StackPanel>
-
-            <!--4층-->
-            <StackPanel Orientation="Horizontal" Margin="20">
-                <TextBlock Text=" " FontSize="18" Width="100" HorizontalAlignment="Right"/>
-                <Button FontSize="18" Width="200" Content="로그인" Padding="20" Click="Button_Click"/> 
-               
-
-            </StackPanel>
-        </StackPanel>
-        
+        </Grid>
     </Grid>
 </Window>

@@ -1,0 +1,79 @@
+﻿<Window x:Class="user_control.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:user_control"
+        mc:Ignorable="d"
+        Title="컨트롤" Height="450" Width="800">
+
+    <DockPanel Background="LightGray">
+
+        <TextBlock DockPanel.Dock="Top"
+                   HorizontalAlignment="Center"
+                   FontSize="20"
+                   FontWeight="Bold"
+                   Margin="20 20 20 0"
+                   Text="Color Test"/>
+
+        <StackPanel DockPanel.Dock="Top"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+
+            <Button Margin="20"
+                    HorizontalAlignment="Center"
+                    Width="50"
+                    Height="50">
+
+                <StackPanel>
+                    <Rectangle Fill="Red"
+                               Width="25"
+                               Height="25"/>
+
+                    <TextBlock HorizontalAlignment="Center"
+                               Text="Red"/>
+                </StackPanel>
+            </Button>
+
+            <Button Margin="20"
+                    HorizontalAlignment="Center"
+                    Width="50"
+                    Height="50">
+
+                <StackPanel>
+                    <Rectangle Fill="Green"
+                               Width="25"
+                               Height="25"/>
+
+                    <TextBlock HorizontalAlignment="Center"
+                               Text="Green"/>
+                </StackPanel>
+            </Button>
+
+            <Button Margin="20"
+                    HorizontalAlignment="Center"
+                    Width="50"
+                    Height="50">
+
+                <StackPanel>
+                    <Rectangle Fill="Blue"
+                               Width="25"
+                               Height="25"/>
+
+                    <TextBlock HorizontalAlignment="Center"
+                               Text="Blue"/>
+                </StackPanel>
+            </Button>
+
+        </StackPanel>
+
+        <!-- MinWidth MinHeight 최소 사이즈를 설정 -->
+        <Button DockPanel.Dock="Bottom"
+                Margin="30"
+                MinWidth="400"
+                MinHeight="230"
+                Background="AliceBlue"
+                Content="Color Test"/>
+
+    </DockPanel>
+</Window>

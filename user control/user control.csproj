@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{16A42413-1ABE-4064-88C5-E390DB2934E4}</ProjectGuid>
+    <ProjectGuid>{503117F3-9142-4F2D-80B6-76856208AF82}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_029_Login</RootNamespace>
-    <AssemblyName>029_Login</AssemblyName>
+    <RootNamespace>user_control</RootNamespace>
+    <AssemblyName>user control</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
