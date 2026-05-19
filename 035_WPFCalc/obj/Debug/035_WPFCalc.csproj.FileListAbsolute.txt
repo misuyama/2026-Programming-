@@ -1,0 +1,16 @@
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\bin\Debug\035_WPFCalc.exe.config
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\bin\Debug\035_WPFCalc.exe
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\bin\Debug\035_WPFCalc.pdb
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\obj\Debug\035_WPFCalc.csproj.AssemblyReference.cache
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\obj\Debug\MainWindow.g.cs
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\obj\Debug\App.g.cs
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\obj\Debug\035_WPFCalc_MarkupCompile.cache
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\obj\Debug\035_WPFCalc_MarkupCompile.lref
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\obj\Debug\MainWindow.baml
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\obj\Debug\035_WPFCalc.g.resources
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\obj\Debug\_035_WPFCalc.Properties.Resources.resources
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\obj\Debug\035_WPFCalc.csproj.GenerateResource.cache
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\obj\Debug\035_WPFCalc.csproj.CoreCompileInputs.cache
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\obj\Debug\035_WPFCalc.exe
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\obj\Debug\035_WPFCalc.pdb
+C:\Users\konyang\source\repos\VP-2026-01\035_WPFCalc\obj\Debug\035_WPFCalc.exe.config
