@@ -33,9 +33,9 @@ namespace _035_WPFCalc
 
         private void btn1_Click(object sender, RoutedEventArgs e)
         {
-            if (txtResult.Text == "0")
+            if (txtResult.Text == "0") //0일때는 1로 바꾸고
                 txtResult.Text = "1";
-            else txtResult.Text += "1";
+            else txtResult.Text += "1"; //1일때는 1을 뒤에 추가로 더한다.
         }
     }
 }
