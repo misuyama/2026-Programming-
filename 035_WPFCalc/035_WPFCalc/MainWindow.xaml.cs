@@ -161,7 +161,7 @@ namespace _035_WPFCalc
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
             txtResult.Text = txtResult.Text.Remove(txtResult.Text.Length - 1); //시험문제 
-            if (txtResult.Text == "") ;
+            if (txtResult.Text == "");
             txtResult.Text = "0";
            //string s = txtResult.Text;
            //s=s.Remove(s.Length  - 1);
