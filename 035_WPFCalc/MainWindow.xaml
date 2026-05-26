@@ -54,34 +54,36 @@
             <Button x:Name="btnDelete" Grid.Row="0" Grid.Column="3" BorderThickness="0" FontSize="18" Margin="1,1,2,1" Background="GhostWhite">⌫</Button>
 
             <!-- 2층-->
-            <Button x:Name="btnRecip" Grid.Row="1" Grid.Column="0" BorderThickness="0" FontSize="18" Margin="2,1,1,1" Background="GhostWhite">1/x</Button>
-            <Button x:Name="btnSqr" Grid.Row="1" Grid.Column="1" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite">x²</Button>
-            <Button x:Name="btnSqrt" Grid.Row="1" Grid.Column="2" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite">²√x</Button>
-            <Button x:Name="btnDvide" Grid.Row="1" Grid.Column="3" BorderThickness="0" FontSize="18" Margin="1,1,2,1" Background="GhostWhite">÷</Button>
+            <Button x:Name="btnRecip" Grid.Row="1" Grid.Column="0" BorderThickness="0" FontSize="18" Margin="2,1,1,1" Background="GhostWhite" Click="btnRecip_Click">1/x</Button>
+            <Button x:Name="btnSqr" Grid.Row="1" Grid.Column="1" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite" Click="btnSqr_Click">x²</Button>
+            <Button x:Name="btnSqrt" Grid.Row="1" Grid.Column="2" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite" Click="btnSqrt_Click">²√x</Button>
+            <Button x:Name="btnDvide" Grid.Row="1" Grid.Column="3" BorderThickness="0" FontSize="18" Margin="1,1,2,1" Background="GhostWhite" Click="btnPlue_Click">÷</Button>
 
             <!-- 3층-->
-            <Button x:Name="btn7" Grid.Row="2" Grid.Column="0" BorderThickness="0" FontSize="18" Margin="2,1,1,1" Background="GhostWhite">7</Button>
-            <Button  x:Name="btn8" Grid.Row="2" Grid.Column="1" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite">8</Button>
-            <Button  x:Name="btn9" Grid.Row="2" Grid.Column="2" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite">9</Button>
-            <Button x:Name="btnTime"  Grid.Row="2" Grid.Column="3" BorderThickness="0" FontSize="18" Margin="1,1,2,1" Background="GhostWhite">×</Button>
+            <Button x:Name="btn7" Grid.Row="2" Grid.Column="0" BorderThickness="0" FontSize="18" Margin="2,1,1,1" Background="GhostWhite" Click="btn1_Click">7</Button>
+            <Button  x:Name="btn8" Grid.Row="2" Grid.Column="1" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite" Click="btn1_Click">8</Button>
+            <Button  x:Name="btn9" Grid.Row="2" Grid.Column="2" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite" Click="btn1_Click">9</Button>
+            <Button x:Name="btnTime"  Grid.Row="2" Grid.Column="3" BorderThickness="0" FontSize="18" Margin="1,1,2,1" Background="GhostWhite" Click="btnPlue_Click">×</Button>
 
             <!-- 4층-->
-            <Button x:Name="btn4" Grid.Row="3" Grid.Column="0" BorderThickness="0" FontSize="18" Margin="2,1,1,1" Background="GhostWhite">4</Button>
-            <Button x:Name="btn5" Grid.Row="3" Grid.Column="1" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite">5</Button>
-            <Button x:Name="btn6" Grid.Row="3" Grid.Column="2" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite">6</Button>
-            <Button  x:Name="btnMinus" Grid.Row="3" Grid.Column="3" BorderThickness="0" FontSize="18" Margin="1,1,2,1" Background="GhostWhite">-</Button>
+            <Button x:Name="btn4" Grid.Row="3" Grid.Column="0" BorderThickness="0" FontSize="18" Margin="2,1,1,1" Background="GhostWhite" Click="btn1_Click">4</Button>
+            <Button x:Name="btn5" Grid.Row="3" Grid.Column="1" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite" Click="btn1_Click">5</Button>
+            <Button x:Name="btn6" Grid.Row="3" Grid.Column="2" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite" Click="btn1_Click">6</Button>
+            <Button  x:Name="btnMinus" Grid.Row="3" Grid.Column="3" BorderThickness="0" FontSize="18" Margin="1,1,2,1" Background="GhostWhite" Click="btnPlue_Click" >-</Button>
 
             <!-- 5층-->
             <Button  x:Name="btn1" Grid.Row="4" Grid.Column="0" BorderThickness="0" FontSize="18" Margin="2,1,1,1" Background="GhostWhite" Click="btn1_Click">1</Button>
-            <Button  x:Name="btn2" Grid.Row="4" Grid.Column="1" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite">2</Button>
-            <Button x:Name="btn3" Grid.Row="4" Grid.Column="2" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite">3</Button>
-            <Button x:Name="btnPlue" Grid.Row="4" Grid.Column="3" BorderThickness="0" FontSize="18" Margin="1,1,2,1" Background="GhostWhite">+</Button>
+            <Button  x:Name="btn2" Grid.Row="4" Grid.Column="1" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite" Click="btn1_Click">2</Button>
+            <Button x:Name="btn3" Grid.Row="4" Grid.Column="2" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite" Click="btn1_Click">3</Button>
+            <Button x:Name="btnPlue" Grid.Row="4" Grid.Column="3" BorderThickness="0" FontSize="18" Margin="1,1,2,1" Background="GhostWhite" 
+                    Click="btnPlue_Click">+</Button>
 
             <!-- 6층-->
-            <Button x:Name="btnPlusMinus" Grid.Row="5" Grid.Column="0" BorderThickness="0" FontSize="18" Margin="2,1,1,1" Background="GhostWhite">+/-</Button>
-            <Button x:Name="btn0" Grid.Row="5" Grid.Column="1" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite">0</Button>
-            <Button  x:Name="btnDot" Grid.Row="5" Grid.Column="2" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite">.</Button>
-            <Button  x:Name="btnEqual" Grid.Row="5" Grid.Column="3" BorderThickness="0" FontSize="18" Margin="1,1,2,1" Background="#FF0067C0" Foreground="White" Click="Button_Click" Content="=">
+            <Button x:Name="btnPlusMinus" Grid.Row="5" Grid.Column="0" BorderThickness="0" FontSize="18" Margin="2,1,1,1" Background="GhostWhite" Click="btnPlusMinus_Click">+/-</Button>
+            <Button x:Name="btn0" Grid.Row="5" Grid.Column="1" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite" Click="btn1_Click">0</Button>
+            <Button  x:Name="btnDot" Grid.Row="5" Grid.Column="2" BorderThickness="0" FontSize="18" Margin="1" Background="GhostWhite"
+                     Click="btnDot_Click">.</Button>
+            <Button  x:Name="btnEqual" Grid.Row="5" Grid.Column="3" BorderThickness="0" FontSize="18" Margin="1,1,2,1" Background="#FF0067C0" Foreground="White" Content="="  Click="btnEqual_Click">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="5"/>
