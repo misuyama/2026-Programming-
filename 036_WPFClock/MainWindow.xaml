@@ -6,13 +6,15 @@
         xmlns:local="clr-namespace:_036_WPFClock"
         mc:Ignorable="d"
         Title="WPF 시간" Height="350" Width="350">
-    <Grid>
+    <Grid Background="AliceBlue">
         <Canvas x:Name="aClock" Width="300" Height="300">
             <Rectangle Width="300" Height="300" Stroke="Blue"/>
             <Ellipse Width="300" Height="300" Stroke="LightBlue"
                      StrokeThickness="2"/>
             <Line X1="0" Y1="150" X2="300" Y2="150" Stroke="LightBlue"/>
-            <Line X1="150" Y1="0" X2="150" Y2="300" Stroke="LightBlue"/>
+            <Line X1="150" Y1="0" X2="150" Y2="300" Stroke="Black"/>
+            
+            <!--시계바늘이나 배꼽은 여기서 만들지 않아도 된다. 만들 수 있다라는 것을 보여주는 대목이다.-->
             <!--시계바늘-->
             <Line x:Name="secHand" Stroke="red" StrokeThickness="2"
                   StrokeEndLineCap="round"/>
